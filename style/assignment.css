@@ -33,10 +33,9 @@
     margin: 80px auto;
 }
 
-
-
-
-
+html{
+    scroll-behavior: smooth;
+}
 
 
 
@@ -271,4 +270,34 @@ input[type="submit"]{
 }
 .support .section-title,.section-description{
     color: white;
+}
+
+/* footer styles */
+#foot-section{
+    background-color: rgba(13, 19, 33, 0.03);
+    padding: 30px 0;
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+    width: 1180px;
+    /* height: 100px; */
+    margin: 0 auto;
+    
+    
+}
+.foot-icons{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+}
+.foot-icons img{
+    width: 40px;
+    height: 40px;
+}
+.footer-info{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(13, 19, 33);
 }
