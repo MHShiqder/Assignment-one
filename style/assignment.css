@@ -24,6 +24,8 @@
     line-height: 26px;
     letter-spacing: 0%;
     text-align: center;
+    max-width: 800px;
+    margin: 40px auto;
 }
 
 .main-width{
@@ -146,10 +148,10 @@
 .inspiration-section{
     text-align: center;
 }
-.inspiration-section .section-description{
+/* .inspiration-section .section-description{
     max-width: 800px;
     margin: 40px auto;
-}
+} */
 .iframe-holder{
     display: flex;
     justify-content: center;
@@ -172,10 +174,10 @@
 }
 
 /* target section styles */
-.target-section .section-description{
+/* .target-section .section-description{
     max-width: 800px;
     margin: 40px auto;
-}
+} */
 
 /* card styles */
 .box-one{
@@ -217,4 +219,56 @@
     letter-spacing: 0%;
     text-align: left;
     
+}
+
+/* support section styles */
+.support{
+    padding: 64px;
+    border-radius: 16px;
+    background-image:
+    linear-gradient(to bottom, rgba(0,0,0, 0.5), rgba(0,0,0, 0.5)),
+    url(../assets/handshake.jpg);
+    background-position: center;
+    width: 1045px;
+    margin: 50px auto;
+}
+
+.support .section-title{
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+.support form{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+input[type="text"]{
+    padding: 19px 350px 19px 20px;
+    border-radius: 8px;
+    color: rgba(13, 19, 33, 0.4);
+    font-family: Azeret Mono;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+input[type="submit"]{
+    padding: 20px 25px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    background: rgb(255, 255, 255);
+    border-radius: 8px;
+
+}
+.support .section-title,.section-description{
+    color: white;
 }
