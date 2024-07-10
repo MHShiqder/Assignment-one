@@ -104,6 +104,15 @@ html{
     gap: 100px;
     margin-top: 30px;
 }
+.blog-box-2{
+    display: flex;
+    width: 770px;
+    padding: 36px;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgba(255, 255, 255, 0),rgb(255, 255, 255) 100%);
+    gap: 100px;
+    margin-top: 30px;
+}
 .text-title{
     color: rgba(13, 19, 33, 0.7);
     font-family: Azeret Mono;
