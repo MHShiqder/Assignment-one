@@ -27,17 +27,13 @@
     max-width: 650px;
     margin: 40px auto;
 }
-
 .main-width{
     width: 800px;
     margin: 80px auto;
 }
-
 html{
     scroll-behavior: smooth;
 }
-
-
 
 
 
@@ -47,13 +43,11 @@ html{
     text-align: center;
     padding-bottom:44px;   
     padding-top:20px; 
-    margin: 0 auto;  
-    
+    margin: 0 auto;      
 }  
 .banner-content{
     max-width: 800px;
     margin: 25px auto;
-
 }
 .header-title{
     color: rgb(13, 19, 33);
@@ -94,8 +88,7 @@ html{
 .web-dev{
     padding: 50px 97px 50px 97px;
     border-radius: 16px;
-    background: rgba(13, 19, 33, 0.02);
-    
+    background: rgba(13, 19, 33, 0.02);    
 }
 .title-box{
     width: 670px;
@@ -145,6 +138,7 @@ html{
     background-color: transparent;
     text-decoration: none;
 }
+
 /* inspiration styles */
 .inspiration-section{
     text-align: center;
@@ -180,8 +174,6 @@ html{
 .box-three{
     background: rgba(255, 223, 0, 0.05);
 }
-
-
 .card-holder{
     display: flex;
     gap: 24px;
@@ -199,9 +191,7 @@ html{
 .card-description{
     text-align: left;
     margin-top: 30px;
-    font-size: 13px;
-
-    
+    font-size: 13px;    
 }
 .card-title{
     color: rgb(13, 19, 33);
@@ -209,8 +199,7 @@ html{
     font-size: 18px;
     font-weight: 800;
     letter-spacing: 0%;
-    text-align: left;
-    
+    text-align: left;    
 }
 .card-box a{
     color: rgb(13, 19, 33);
@@ -229,18 +218,15 @@ html{
     width: 845px;
     margin: 50px auto;
 }
-
 .support .section-title{
     padding-top: 0px;
     margin-top: 0px;
 }
-
 .support form{
     display: flex;
     justify-content: center;
     gap: 15px;
 }
-
 input[type="text"]{
     padding: 19px 20px 19px 20px;
     border-radius: 8px;
@@ -252,7 +238,6 @@ input[type="text"]{
     letter-spacing: 0%;
     text-align: left;
     width: 500px;
-
 }
 input[type="submit"]{
     padding: 20px 25px;
@@ -265,7 +250,6 @@ input[type="submit"]{
     text-align: center;
     background: rgb(255, 255, 255);
     border-radius: 8px;
-
 }
 .white{
     color: white;
@@ -280,9 +264,7 @@ input[type="submit"]{
     display: flex;
     justify-content: space-between;
     width: 980px;
-    margin: 0 auto;
-    
-    
+    margin: 0 auto;    
 }
 .foot-icons{
     display: flex;
